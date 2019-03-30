@@ -41,10 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\Professions.cs" />
+    <Compile Include="Enums\ResourceTypes.cs" />
+    <Compile Include="Interfaces\IResource.cs" />
+    <Compile Include="Interfaces\IStockpile.cs" />
     <Compile Include="Interfaces\IVillage.cs" />
     <Compile Include="Interfaces\IVillageInformation.cs" />
     <Compile Include="Interfaces\IVillager.cs" />
     <Compile Include="Interfaces\IVillagerInformation.cs" />
+    <Compile Include="Interfaces\IWorldTime.cs" />
     <Compile Include="Models\VillagerInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

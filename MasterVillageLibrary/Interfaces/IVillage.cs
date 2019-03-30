@@ -8,5 +8,7 @@ namespace MasterVillageLibrary.Interfaces
 {
     public interface IVillage
     {
+        IVillageInformation VillageInformation { get; set; }
+        IEnumerable<IVillager> Villagers { get; set; }
     }
 }

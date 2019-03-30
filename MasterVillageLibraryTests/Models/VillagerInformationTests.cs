@@ -11,10 +11,5 @@ namespace MasterVillageLibrary.Models.Tests
     [TestClass]
     public class VillagerInformationTests
     {
-        [TestMethod]
-        public void TestTest()
-        {
-            Assert.Fail();
-        }
     }
 }

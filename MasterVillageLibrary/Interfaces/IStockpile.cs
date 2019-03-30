@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MasterVillageLibrary.Interfaces
 {
-    public interface IVillager
+    public interface IStockpile
     {
-        IVillagerInformation VillagerInformation { get; set; }
+        IDictionary<IResource, int> Resources { get; set; }
     }
 }

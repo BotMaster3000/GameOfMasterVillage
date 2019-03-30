@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MasterVillageLibrary.Interfaces
+namespace MasterVillageLibrary.Enums
 {
-    public interface IVillager
+    public enum Professions
     {
-        IVillagerInformation VillagerInformation { get; set; }
     }
 }

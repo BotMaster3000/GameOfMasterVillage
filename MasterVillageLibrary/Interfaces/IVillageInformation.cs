@@ -8,5 +8,7 @@ namespace MasterVillageLibrary.Interfaces
 {
     public interface IVillageInformation
     {
+        string Name { get; set; }
+        IStockpile Stockpile { get; set; }
     }
 }

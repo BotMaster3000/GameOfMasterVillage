@@ -8,9 +8,6 @@ namespace MasterVillageLibrary.Models
 {
     public class VillagerInformation
     {
-        public void Test()
-        {
 
-        }
     }
 }

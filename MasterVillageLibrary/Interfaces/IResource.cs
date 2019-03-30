@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MasterVillageLibrary.Enums;
 
 namespace MasterVillageLibrary.Interfaces
 {
-    public interface IVillager
+    public interface IResource
     {
-        IVillagerInformation VillagerInformation { get; set; }
+        string Name { get; set; }
+        ResourceTypes Type { get; set; }
     }
 }
