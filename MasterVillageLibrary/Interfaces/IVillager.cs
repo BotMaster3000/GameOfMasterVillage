@@ -9,5 +9,6 @@ namespace MasterVillageLibrary.Interfaces
     public interface IVillager
     {
         IVillagerInformation VillagerInformation { get; set; }
+
     }
 }

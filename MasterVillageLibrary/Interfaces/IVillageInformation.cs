@@ -10,5 +10,6 @@ namespace MasterVillageLibrary.Interfaces
     {
         string Name { get; set; }
         IStockpile Stockpile { get; set; }
+        IWorldTime Time { get; set; }
     }
 }

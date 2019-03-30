@@ -50,11 +50,10 @@
     <Compile Include="Interfaces\IVillager.cs" />
     <Compile Include="Interfaces\IVillagerInformation.cs" />
     <Compile Include="Interfaces\IWorldTime.cs" />
+    <Compile Include="Logic\WorldTime.cs" />
     <Compile Include="Models\VillagerInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logic\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
