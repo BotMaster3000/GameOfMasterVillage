@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\IVillager.cs" />
     <Compile Include="Enums\Professions.cs" />
     <Compile Include="Enums\ResourceTypes.cs" />
     <Compile Include="Interfaces\IResource.cs" />

@@ -8,5 +8,6 @@ namespace MasterVillageLibrary.Enums
 {
     public enum Professions
     {
+        Farmer
     }
 }
